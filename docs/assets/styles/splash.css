@@ -5,6 +5,9 @@
   background-repeat: no-repeat; }
   .background-haleakala .show-haleakala {
     height: 100px; }
+  .background-haleakala a.icon {
+    color: inherit;
+    margin: 0 0.5em; }
 
 .bio .padded-top {
   padding-top: 2em; }
