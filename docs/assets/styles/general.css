@@ -1,0 +1,44 @@
+a {
+  color: blue;
+  text-decoration: none;
+  border-bottom: 2px dotted black; }
+  a:visited {
+    color: blue; }
+  a:hover {
+    background-color: lightgreen; }
+
+.centered {
+  margin: 0 auto; }
+
+.centered-text {
+  text-align: center; }
+
+.justified-text {
+  text-align: justify; }
+
+.big-text {
+  font-size: 5em; }
+
+.white-border {
+  border-style: solid;
+  border-color: white; }
+
+.white-text {
+  color: white; }
+
+.thin-border {
+  border-width: 3px; }
+
+.rounded-corners {
+  border-radius: 10px; }
+
+.text {
+  padding: 0 100px; }
+  .text div {
+    margin-bottom: 1em; }
+
+.aligned-right {
+  text-align: right; }
+
+.aligned-left {
+  text-align: left; }

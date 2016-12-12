@@ -1,0 +1,11 @@
+.background-haleakala {
+  background-image: url("/assets/images/panoramic.jpg");
+  background-position: center center;
+  background-size: auto 100%; }
+  .background-haleakala .show-haleakala {
+    height: 100px; }
+
+.bio .padded-top {
+  padding-top: 2em; }
+.bio h4 {
+  margin-top: 0; }
