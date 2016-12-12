@@ -4,7 +4,8 @@
 .background-haleakala {
   background-image: url("/assets/images/panoramic.jpg");
   background-position: center center;
-  background-size: auto 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 
   .show-haleakala {
     height: 100px;
