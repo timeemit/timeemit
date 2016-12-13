@@ -11,3 +11,6 @@
     .background-haleakala a.icon:hover {
       background-color: inherit;
       border-bottom: inherit; }
+
+.project {
+  margin: 0 20px; }

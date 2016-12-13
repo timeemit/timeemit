@@ -23,6 +23,10 @@ a {
   border-style: solid;
   border-color: white; }
 
+.black-border {
+  border-style: solid;
+  border-color: black; }
+
 .white-text {
   color: white; }
 
