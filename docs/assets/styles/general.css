@@ -32,9 +32,15 @@ a {
 .rounded-corners {
   border-radius: 10px; }
 
-.text {
+.content {
+  max-width: 800px;
+  margin: 0 auto;
   padding: 0 100px; }
-  .text div {
+  .content .padded-top {
+    padding-top: 2em; }
+    .content .padded-top h4 {
+      margin-top: 0; }
+  .content div {
     margin-bottom: 1em; }
 
 .aligned-right {
