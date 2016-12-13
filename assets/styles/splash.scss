@@ -14,5 +14,10 @@
   a.icon {
     color: inherit;
     margin: 0 0.5em;
+
+    &:hover {
+      background-color: inherit;
+      border-bottom: inherit;
+    }
   }
 }
