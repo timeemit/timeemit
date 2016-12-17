@@ -14,3 +14,56 @@
 
 .project {
   margin: 0 20px; }
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 100px; }
+  .content .padded-top {
+    padding-top: 2em; }
+    .content .padded-top h4 {
+      margin-top: 0; }
+  .content div {
+    margin-bottom: 1em; }
+
+.timeline {
+  max-width: 768;
+  margin: 0 auto;
+  padding: 0 100px; }
+  .timeline .timepoint {
+    padding-bottom: 1em; }
+    @media (min-width: 1024px) {
+      .timeline .timepoint {
+        width: 50%; }
+      .timeline .timepoint:nth-child(odd) {
+        margin-left: 50%;
+        text-align: left;
+        border-left: 5px solid black; }
+      .timeline .timepoint:nth-child(even) {
+        margin-right: 50%;
+        text-align: right;
+        border-right: 5px solid black; } }
+    @media (max-width: 1023px) {
+      .timeline .timepoint {
+        border-left: 5px solid black; } }
+    .timeline .timepoint div {
+      padding-bottom: 0.5em; }
+    .timeline .timepoint .date {
+      padding-left: 1em;
+      padding-right: 1em;
+      font-size: 1.5em; }
+    .timeline .timepoint .company {
+      padding-left: 1em;
+      padding-right: 1em;
+      font-size: 2em; }
+      .timeline .timepoint .company img {
+        height: 2em; }
+    .timeline .timepoint .title {
+      padding-left: 1em;
+      padding-right: 1em;
+      font-size: 1.17em;
+      font-weight: bold; }
+    .timeline .timepoint .description {
+      padding-left: 2em;
+      padding-right: 2em;
+      font-style: italic; }
