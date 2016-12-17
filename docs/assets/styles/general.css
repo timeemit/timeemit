@@ -16,6 +16,12 @@ a {
 .justified-text {
   text-align: justify; }
 
+.aligned-right {
+  text-align: right; }
+
+.aligned-left {
+  text-align: left; }
+
 .big-text {
   font-size: 5em; }
 
@@ -36,8 +42,8 @@ a {
 .rounded-corners {
   border-radius: 10px; }
 
-.aligned-right {
-  text-align: right; }
+.padded-left {
+  padding-left: 10px; }
 
-.aligned-left {
-  text-align: left; }
+.padded-right {
+  padding-right: 10px; }
