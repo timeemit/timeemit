@@ -20,11 +20,12 @@
   .padded-top h4 {
     margin-top: 0; }
   .padded-top h2 {
+    max-width: 768px;
     padding-bottom: 1em;
     border-bottom: 3px solid black; }
 
 .content, .projects {
-  max-width: 800px;
+  max-width: 768px;
   margin: 0 auto;
   padding: 0 100px; }
   .content div, .projects div {
