@@ -15,14 +15,18 @@
 .project {
   margin: 0 20px; }
 
+.padded-top {
+  padding-top: 2em; }
+  .padded-top h4 {
+    margin-top: 0; }
+  .padded-top h2 {
+    padding-bottom: 1em;
+    border-bottom: 3px solid black; }
+
 .content, .projects {
   max-width: 800px;
   margin: 0 auto;
   padding: 0 100px; }
-  .content .padded-top, .projects .padded-top {
-    padding-top: 2em; }
-    .content .padded-top h4, .projects .padded-top h4 {
-      margin-top: 0; }
   .content div, .projects div {
     margin-bottom: 1em; }
 
