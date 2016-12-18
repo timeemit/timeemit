@@ -26,6 +26,8 @@
   .content div, .projects div {
     margin-bottom: 1em; }
 
+.education img {
+  height: 4em; }
 .education .degree {
   margin: 0; }
 .education .subject {
