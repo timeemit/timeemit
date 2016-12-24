@@ -24,12 +24,17 @@
     padding-bottom: 1em;
     border-bottom: 3px solid black; }
 
-.content, .projects {
+.content, .projects, .awards {
   max-width: 768px;
   margin: 0 auto;
   padding: 0 100px; }
-  .content div, .projects div {
+  .content div, .projects div, .awards div {
     margin-bottom: 1em; }
+
+.awards .reference {
+  line-height: 1.5em; }
+.awards img {
+  height: 4em; }
 
 .education img {
   height: 4em; }

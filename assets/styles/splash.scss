@@ -37,7 +37,7 @@
   }
 }
 
-.content, .projects {
+.content, .projects, .awards {
   max-width: 768px;
   margin: 0 auto;
   padding: 0 100px;
@@ -45,6 +45,11 @@
   div {
     margin-bottom: 1em;
   }
+}
+
+.awards {
+  .reference { line-height: 1.5em }
+  img { height: 4em; }
 }
 
 .education {
