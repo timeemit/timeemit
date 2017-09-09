@@ -1,4 +1,4 @@
 destination: docs
-exclude: 
+exclude:
   - Gemfile
   - Gemfile.lock
