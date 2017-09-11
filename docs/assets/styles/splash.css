@@ -24,11 +24,18 @@
     padding-bottom: 1em;
     border-bottom: 3px solid black; }
 
-.content, .projects, .awards {
+body {
+  font-weight: 300;
+  line-height: 1.5em; }
+
+.bio h4 {
+  font-weight: 500; }
+
+.bio, .projects, .awards, .research {
   max-width: 768px;
   margin: 0 auto;
   padding: 0 100px; }
-  .content div, .projects div, .awards div {
+  .bio div, .projects div, .awards div, .research div {
     margin-bottom: 1em; }
 
 .awards .reference {
