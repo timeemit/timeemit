@@ -42,19 +42,25 @@ body {
   line-height: 1.5em;
 }
 
-.bio {
-  h4 {
-    font-weight: 500;
-  }
-}
-
-.bio, .projects, .awards, .research {
+.bio, .projects, .awards, .research, .skills {
   max-width: 768px;
   margin: 0 auto;
   padding: 0 100px;
 
   div {
     margin-bottom: 1em;
+  }
+}
+
+.bio {
+  h4 {
+    font-weight: 500;
+  }
+}
+
+.skills {
+  img {
+    vertical-align: middle;
   }
 }
 
