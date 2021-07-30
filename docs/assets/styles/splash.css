@@ -28,15 +28,19 @@ body {
   font-weight: 300;
   line-height: 1.5em; }
 
-.bio, .projects, .awards, .research, .skills {
+.bio, .references, .projects, .awards, .research, .skills {
   max-width: 768px;
   margin: 0 auto;
   padding: 0 100px; }
-  .bio div, .projects div, .awards div, .research div, .skills div {
+  .bio div, .references div, .projects div, .awards div, .research div, .skills div {
     margin-bottom: 1em; }
 
 .bio h4 {
   font-weight: 500; }
+
+.references img {
+  max-height: 100px;
+  border-radius: 25%; }
 
 .skills img {
   vertical-align: middle; }
