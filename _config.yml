@@ -2,5 +2,4 @@ destination: docs
 exclude:
   - Gemfile
   - Gemfile.lock
-  - CNAME
   - README.md
